@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.full-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    height: auto;
+   
+}
+.todo-container {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    margin-bottom:10px;
+    background-color: white;
+   
+}
+
+.task-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+ input[type="text"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+}
+
+.task-text button {
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#table {
+    width: 100%;
+    overflow: hidden;
+}
+
+#table td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+#table select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.deleteButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#searchButton{
+    margin-left:5px;
+    cursor: pointer;
+}
+#searcharea{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
